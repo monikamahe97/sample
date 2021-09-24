@@ -39,7 +39,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         holder.itemView.setOnClickListener(view -> {
             if (list.get(list.size() - 1).equals(list.get(position))) {
                 onClicktener.onClick(1);
-                //Monika
                 Log.d("position", "onBindViewHolder: " + position + "size" + list.size());
                 list.addFirst("karthika");
             }
