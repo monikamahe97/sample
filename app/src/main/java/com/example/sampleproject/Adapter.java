@@ -36,10 +36,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.textView.setText(list.get(position));
 
+        //testing
+
         holder.itemView.setOnClickListener(view -> {
             if (list.get(list.size() - 1).equals(list.get(position))) {
                 onClicktener.onClick(1);
-
                 Log.d("position", "onBindViewHolder: " + position + "size" + list.size());
                 list.addFirst("karthika");
             }
