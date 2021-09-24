@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements Adapter.OnClickte
         duplicateCharacters();
 
 
-
         duplicateWords();
 
 
@@ -74,6 +73,8 @@ public class MainActivity extends AppCompatActivity implements Adapter.OnClickte
     }
 
     public void duplicateCharacters() {
+
+        //monika
         String input = "aaaabbccAAdd";
         char search = 'b';
         int count = 0;
@@ -83,7 +84,6 @@ public class MainActivity extends AppCompatActivity implements Adapter.OnClickte
         }
         Log.d("TAG", "recursion" + "The Character '" + search + "' appears " + count + " times. ");
     }
-
     public void duplicateWords() {
         List<String> list = new ArrayList<>();
         list.add("monika");

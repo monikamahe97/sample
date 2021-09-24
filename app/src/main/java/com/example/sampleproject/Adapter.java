@@ -39,9 +39,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         holder.itemView.setOnClickListener(view -> {
             if (list.get(list.size() - 1).equals(list.get(position))) {
                 onClicktener.onClick(1);
+                //Monika
                 Log.d("position", "onBindViewHolder: " + position + "size" + list.size());
                 list.addFirst("karthika");
             }
+            //monika
+
+
         });
     }
 
@@ -56,6 +60,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             textView = itemView.findViewById(R.id.textView);
+            textView = itemView.findViewById(R.id.recyclerView);
         }
     }
 }
