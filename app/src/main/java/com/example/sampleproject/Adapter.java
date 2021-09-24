@@ -44,6 +44,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
                 list.addFirst("karthika");
             }
             //monika
+            //karthika
 
 
         });
