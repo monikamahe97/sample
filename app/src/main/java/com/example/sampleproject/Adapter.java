@@ -43,7 +43,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
                 Log.d("position", "onBindViewHolder: " + position + "size" + list.size());
                 list.addFirst("karthika");
             }
-            //monika
+
         });
     }
 
